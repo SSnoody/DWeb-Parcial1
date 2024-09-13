@@ -5,9 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de - Animales Exóticos</title>
     <link rel="stylesheet" href="/css/style.css">
+    <style>
+        /* Estilo para la barra de navegación */
+        header.animal-page {
+            position: relative;
+            text-align: center;
+            color: white;
+            background: url('/img/fondo8.jpg') no-repeat center center/cover;
+            margin: 0;
+            box-shadow: 0 4px 10px rgba(141, 132, 132, 0.5); /* Sombra sutil en la parte inferior */
+        }
+
+        header.animal-page nav {
+            margin-top: 20px;
+        }
+
+        header.animal-page nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        header.animal-page nav ul li {
+            margin: 0 15px;
+        }
+
+        header.animal-page nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        header.animal-page nav ul li a:hover {
+            color: #58564e; /* Cambia el color del texto en hover */
+        }
+
+        /* Ajuste del tamaño de letra para una mejor lectura */
+        main p {
+            font-size: 1.1em; /* Aumento leve del tamaño de fuente */
+        }
+
+        main h1 {
+            font-size: 2em; /* Tamaño de letra más grande para el título */
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <header class="animal-page"> <!-- Aquí agregamos la clase animal-page -->
         <div class="logo">
             <img src="../img/logo.png" alt="Logo de la página">
         </div>
@@ -24,11 +72,13 @@
         <section>
             <h1>Acerca de Nosotros</h1>
             <p>Somos un sitio dedicado a mostrar y educar sobre los animales exóticos más impresionantes del mundo.</p>
+            <p>Nos apasiona el mundo animal y trabajamos arduamente para brindar contenido educativo sobre la conservación y protección de especies en peligro. Nuestro equipo está formado por biólogos, ecologistas y amantes de los animales que se esfuerzan por crear conciencia sobre la biodiversidad y los desafíos que enfrentan muchos animales en su hábitat natural.</p>
+            <p>Creemos firmemente en la educación como una herramienta para inspirar a las personas a actuar y proteger la fauna. A través de nuestras publicaciones y recursos, buscamos motivar a la gente a conocer más sobre estas criaturas únicas, sus comportamientos, y la importancia de su conservación para el equilibrio del ecosistema global.</p>
         </section>
     </main>
 
     <footer>
-        <p>© 2024 Animales Exóticos. Todos los derechos reservados.</p>
+        <p>© 2024 ExoVida Animal - Alejandro - Eli</p>
     </footer>
 </body>
 </html>
