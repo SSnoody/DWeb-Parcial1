@@ -5,16 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - Animales Exóticos</title>
     <link rel="stylesheet" href="/css/style.css">
+    <style>
+        /* Estilo para la barra de navegación */
+        header.animal-page {
+            position: relative;
+            text-align: center;
+            color: white;
+            background: url('/img/fondo8.jpg') no-repeat center center/cover;
+            margin: 0;
+            box-shadow: 0 4px 10px rgba(141, 132, 132, 0.5); /* Sombra sutil en la parte inferior */
+        }
+
+        header.animal-page nav {
+            margin-top: 20px;
+        }
+
+        header.animal-page nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        header.animal-page nav ul li {
+            margin: 0 15px;
+        }
+
+        header.animal-page nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        header.animal-page nav ul li a:hover {
+            color: #58564e; /* Cambia el color del texto en hover */
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <header class="animal-page"> <!-- Aquí agregamos la clase animal-page -->
         <div class="logo">
             <img src="../img/logo.png" alt="Logo de la página">
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
                 <li><a href="contact.html">Contacto</a></li>
             </ul>
         </nav>
@@ -23,6 +62,19 @@
     <main>
         <section>
             <h1>Contacto</h1>
+            
+            <!-- Logo de Instagram debajo del título de contacto -->
+            <div style="text-align: left; margin-top: 10px;">
+                <a href="https://www.instagram.com/asociacion_ecovida_animal?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                    <img src="/img/ig.jpg" alt="Instagram" style="width: 40px; height: 40px;">
+                </a>
+            </div>
+
+            <!-- Texto adicional para pedir más información sobre animales -->
+            <div style="margin-top: 10px;">
+                <p>Si desea obtener más información sobre algún animal exótico en particular, por favor complete el formulario indicando su nombre, correo electrónico y el nombre del animal que le interesa conocer más.</p>
+            </div>
+
             <form action="#" method="POST">
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" required>
@@ -39,7 +91,7 @@
     </main>
 
     <footer>
-        <p>© 2024 Animales Exóticos. Todos los derechos reservados.</p>
+        <p>© 2024 ExoVida Animal - Alejandro - Eli</p>
     </footer>
 </body>
 </html>
