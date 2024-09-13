@@ -1,15 +1,13 @@
-/* Estilo para el header.hero */
 header.hero {
     position: relative;
     text-align: center;
     color: white;
-    height: 100vh; /* Ocupa toda la altura del viewport */
+    height: 100vh; 
     background: url('/img/fondo8.jpg') no-repeat center center/cover;
-    margin: 0; /* Asegura que no haya margen adicional */
-    box-shadow: 0 4px 10px rgba(134, 134, 134, 0.5); /* Sombra sutil en la parte inferior */
+    margin: 0; 
+    box-shadow: 0 4px 10px rgba(134, 134, 134, 0.5); 
 }
 
-/* Estilo para el logo en el header */
 header.hero .logo {
     text-align: center;
     margin-top: 20px;
@@ -28,7 +26,6 @@ header.hero h1 {
     margin-top: 10px;
 }
 
-/* Estilo para el nav */
 header.hero nav {
     margin-top: 20px;
 }
@@ -54,22 +51,21 @@ header.hero nav ul li a {
 }
 
 header.hero nav ul li a:hover {
-    color: #ffdd57; /* Cambia el color del texto en hover */
+    color: #ffdd57;
 }
 
-/* Estilo para la sección de animales exóticos */
 .animal-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 40px;
     text-align: center;
-    background: url('/img/fondo.jpg') no-repeat center center/cover; /* Fondo específico para la sección de animales */
-    background-color: #f5f5f5; /* Color de respaldo si la imagen no carga */
-    margin: 0; /* Asegura que no haya márgenes adicionales */
+    background: url('/img/fondo.jpg') no-repeat center center/cover; 
+    background-color: #f5f5f5;
+    margin: 0; 
 }
 
-/* Estilo de las tarjetas de animales */
+
 .animal-card {
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -101,7 +97,6 @@ header.hero nav ul li a:hover {
     color: #555;
 }
 
-/* Estilo para el footer */
 footer {
     text-align: center;
     padding: 10px;
@@ -109,7 +104,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    margin: 0; /* Asegura que no haya márgenes adicionales */
+    margin: 0; 
 }
 
 footer p {
