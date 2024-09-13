@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobra Real - ExoVida Animal</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        /* Estilo para el header.hero en la página del Tigre de Bengala */
+        header.animal-page {
+            position: relative;
+            text-align: center;
+            color: white;
+            background: url('/img/fondo8.jpg') no-repeat center center/cover;
+            margin: 0;
+            box-shadow: 0 4px 10px rgba(141, 132, 132, 0.5); /* Sombra sutil en la parte inferior */
+        }
+
+        header.animal-page nav {
+            margin-top: 20px;
+        }
+
+        header.animal-page nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        header.animal-page nav ul li {
+            margin: 0 15px;
+        }
+
+        header.animal-page nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        header.animal-page nav ul li a:hover {
+            color: #58564e; /* Cambia el color del texto en hover */
+        }
+
+        /* Estilo para la sección de animales exóticos */
+        .animal-section {
+            padding: 40px;
+            background: url('/img/fondo3.jpg') no-repeat center center/cover; /* Fondo específico para la sección de animales */
+            background-color: #f5f5f5; /* Color de respaldo si la imagen no carga */
+            margin: 0; /* Asegura que no haya márgenes adicionales */
+        }
+
+        /* Estilo para el título de la sección de animales */
+        .animal-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: white;
+        }
+
+        /* Estilo para la imagen del animal */
+        .imagen-animal {
+            width: 100%;
+            max-width: 600px; /* Tamaño máximo para la imagen */
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+
+        /* Estilo para los textos de audio y video */
+        .media-title {
+            text-align: center;
+            font-size: 1.2em;
+            color: white;
+            margin: 20px 0 10px;
+        }
+
+        /* Estilo para centrar el audio y el video */
+        audio, video {
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Estilo para la información del tigre */
+        .animal-info {
+            padding: 20px;
+            background-color: #e6b873; /* Fondo oscuro para mejor contraste con el texto blanco */
+            color: rgb(255, 255, 255);
+            text-align: center;
+            border-radius: 10px;
+            margin: 0 auto;
+            max-width: 800px; /* Tamaño máximo del contenedor */
+        }
+
+        .animal-info p {
+            font-size: 1.2em;
+        }
+
+        /* Estilo para el footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin: 0; /* Asegura que no haya márgenes adicionales */
+        }
+
+        footer p {
+            margin: 0;
+            color: #6d6969;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="animal-page">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="animal-section">
+        <h2>Cobra Real</h2>
+        <img src="/img/Cobra.jpeg" alt="Cobra Real" class="imagen-animal">
+        <div class="animal-info">
+            <p>La cobra real es la serpiente venenosa más larga del mundo, alcanzando hasta 5,5 metros. Nativa del sur y sureste de Asia, se distingue por su capucha expansible y su veneno potente. Es la única serpiente que construye nidos para sus huevos. Su dieta consiste principalmente en otras serpientes, incluyendo algunas venenosas. A pesar de su nombre "real", no es una cobra verdadera, sino que pertenece a su propio género.</p>
+            <p>Para más información sobre la Cobra Real, visita el siguiente enlace:</p>
+            <a href="https://www.lifeder.com/cobra-real/" target="_blank" style="color: #81807d; text-decoration: underline;">Más información sobre la Cobra Real</a>
+        </div>
+
+        <!-- Ejemplo de audio -->
+        <div class="media-title"> Siseo de las cobras:</div>
+        <audio controls>
+            <source src="/audio/sonido-cobra.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+
+        <!-- Ejemplo de video -->
+        <div class="media-title">Video de la Cobra:</div>
+        <video width="320" height="240" controls>
+            <source src="/video/Cobra.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ExoVida Animal - Alejandro - Eli</p>
+    </footer>
+
+</body>
+</html>
